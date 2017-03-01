@@ -1,0 +1,21 @@
+{
+    "name": "sinwashere/module-legacyauthentication",
+    "description": "Legacy Authentication (MD5)",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Sinisa Nedeljkovic",
+            "email": "contact@sinwashere.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sinwashere\\LegacyAuthentication\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
